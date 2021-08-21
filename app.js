@@ -103,6 +103,10 @@ document.getElementById('promo-button').addEventListener('click', function () {
     if (inputField.value == 'stevekaku') {
         let PriceCount = allInOne;
         totalAmount.innerText = (PriceCount - (PriceCount * 0.20));
+        inputField.value = ''
+    }
+    else {
+        alert("Sorry!! Promo Code Does Not Exist")
     }
 
 })

@@ -3,10 +3,10 @@
 }
 
 .half-width{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .cart-item{
-    margin-top: 300px;
+    margin-top: 80px;
 }
 .hr{
     background-color: black;
@@ -19,7 +19,4 @@
 #promo-button{
     background-color: blue;
     color: white;
-}
-.total-amount{
-    text-align: center;
 }
