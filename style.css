@@ -13,13 +13,13 @@
     border: 4px solid black;
 }
 .promo-section{
-    margin-top: 100px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 #promo-button{
     background-color: blue;
     color: white;
 }
-.final{
+.total-amount{
     text-align: center;
 }
