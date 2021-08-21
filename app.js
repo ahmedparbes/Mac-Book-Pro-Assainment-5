@@ -1,10 +1,11 @@
+////memory Section//
+
 function memoryCostVai(item, product) {
     const memoryCost = document.getElementById(item + '-cost');
     memoryCost.innerText = product;
 }
 
 
-////memory Section//
 
 document.getElementById('8gb-memory').addEventListener('click', function () {
     memoryCostVai('memory', 0)
@@ -16,12 +17,12 @@ document.getElementById('16gb-memory').addEventListener('click', function () {
     ////added elementsconst 
 })
 
+///// Storage Section////
+
 function storageItems(item, product) {
     const storageCost = document.getElementById(item + '-cost');
     storageCost.innerText = product;
 }
-
-///// Storage Section////
 
 document.getElementById('256-gb').addEventListener('click', function () {
     storageItems('storage', 0)
@@ -35,24 +36,19 @@ document.getElementById('1000-gb').addEventListener('click', function () {
 
 })
 
+//delivary section
+
 function delivaryCost(items, product) {
     const delivaryCost = document.getElementById(items + '-cost');
+    delivaryCost.innerText = product;
 
 }
-
-//delivary Charge
 
 function freeDelivary() {
-    const delivaryCost = document.getElementById('delivary-cost');
-    let delivaryCostinnit = 0;
-    delivaryCostinTotal = delivaryCostinnit + 0;
-    delivaryCost.innerText = delivaryCostinTotal;
+    delivaryCost('delivary', 0)
 }
 function chargeNeed() {
-    const delivaryCost = document.getElementById('delivary-cost');
-    let delivaryCostinnit = 0;
-    delivaryCostinTotal = delivaryCostinnit + 100;
-    delivaryCost.innerText = delivaryCostinTotal;
+    delivaryCost('delivary', 100)
 }
 
 //////calculation In Total 
